@@ -1,10 +1,14 @@
 # HyprlandConfigFiles
 My .conf files for Hyprland
 
+# Cambio de perfiles de colores
+Hay un archivo dentro de hypr/color-profiles el cual es usar-perfil.sh, este archivo cambia los colores de waybar y rofi. Los colores de kitty se cambian a traves de kitten themes.
 
+El script se ejecuta desde la terminal con _./usar-perfil.sh theme-folder/_
+
+Si se quiere crear un perfil nuevo se debe usar pywal en la imagen y luego copiar todos los archivos dentro de _.cache/wal/_ a la nueva carpeta. Ademas de tambier copiar los archivos de _/etc/xdg/waybar/_ y de _.config/rofi/_ 
 
 #### programas instalados ####
-
 - nmtui
 - bluetoothctl
 - hyprpolkitagent
@@ -31,5 +35,4 @@ My .conf files for Hyprland
 
 
 #### programas a instalar ####
-
 - mpd
