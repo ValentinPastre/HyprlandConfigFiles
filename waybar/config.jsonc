@@ -249,7 +249,8 @@
 	"format-disabled": " dbld  ",
 	"format-connected": " {num_connections}  ",
 	"tooltip-format-connected": "{device_enumerate} ",
-	"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}"
+	"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+	"on-click": "/etc/xdg/waybar/toggle-bluetooth.sh"
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
