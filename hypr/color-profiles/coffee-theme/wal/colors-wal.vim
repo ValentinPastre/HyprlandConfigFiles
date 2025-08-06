@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/zraekl/.config/hypr/wallpapers/pxfuel.jpg"
+let background = "#1b130d"
+let foreground = "#f1e3ab"
+let cursor     = "#f1e3ab"
+
+" Colors
+let color0  = "#1b130d"
+let color1  = "#A45028"
+let color2  = "#A36634"
+let color3  = "#A16D47"
+let color4  = "#D29239"
+let color5  = "#B68B5B"
+let color6  = "#DEA255"
+let color7  = "#f1e3ab"
+let color8  = "#a89e77"
+let color9  = "#A45028"
+let color10 = "#A36634"
+let color11 = "#A16D47"
+let color12 = "#D29239"
+let color13 = "#B68B5B"
+let color14 = "#DEA255"
+let color15 = "#f1e3ab"

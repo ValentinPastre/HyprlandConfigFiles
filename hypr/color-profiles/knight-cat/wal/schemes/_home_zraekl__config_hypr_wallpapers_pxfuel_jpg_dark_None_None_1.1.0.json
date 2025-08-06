@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/zraekl/.config/hypr/wallpapers/pxfuel.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1b130d",
+        "foreground": "#f1e3ab",
+        "cursor": "#f1e3ab"
+    },
+    "colors": {
+        "color0": "#1b130d",
+        "color1": "#A45028",
+        "color2": "#A36634",
+        "color3": "#A16D47",
+        "color4": "#D29239",
+        "color5": "#B68B5B",
+        "color6": "#DEA255",
+        "color7": "#f1e3ab",
+        "color8": "#a89e77",
+        "color9": "#A45028",
+        "color10": "#A36634",
+        "color11": "#A16D47",
+        "color12": "#D29239",
+        "color13": "#B68B5B",
+        "color14": "#DEA255",
+        "color15": "#f1e3ab"
+    }
+}

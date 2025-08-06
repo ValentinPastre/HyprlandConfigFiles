@@ -1,0 +1,21 @@
+set $wallpaper /home/zraekl/.config/hypr/wallpapers/pxfuel.jpg
+
+set $background #1b130d
+set $foreground #f1e3ab
+
+set $color0 #1b130d
+set $color1 #A45028
+set $color2 #A36634
+set $color3 #A16D47
+set $color4 #D29239
+set $color5 #B68B5B
+set $color6 #DEA255
+set $color7 #f1e3ab
+set $color8 #a89e77
+set $color9 #A45028
+set $color10 #A36634
+set $color11 #A16D47
+set $color12 #D29239
+set $color13 #B68B5B
+set $color14 #DEA255
+set $color15 #f1e3ab

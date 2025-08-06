@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/zraekl/.config/hypr/wallpapers/fantasy-knight-cat-armor-flowers-4k-wallpaper-uhdpaper.com-594@5@f.jpg"
+let background = "#0c0d0b"
+let foreground = "#e3cfbd"
+let cursor     = "#e3cfbd"
+
+" Colors
+let color0  = "#0c0d0b"
+let color1  = "#965C3D"
+let color2  = "#956E52"
+let color3  = "#7F807B"
+let color4  = "#9C8973"
+let color5  = "#D7A372"
+let color6  = "#AAA090"
+let color7  = "#e3cfbd"
+let color8  = "#9e9084"
+let color9  = "#965C3D"
+let color10 = "#956E52"
+let color11 = "#7F807B"
+let color12 = "#9C8973"
+let color13 = "#D7A372"
+let color14 = "#AAA090"
+let color15 = "#e3cfbd"
