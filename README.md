@@ -27,11 +27,12 @@ Si se quiere crear un perfil nuevo se debe usar pywal en la imagen y luego copia
                         //el modo que actualmente se usa y los
                         //chipsets activos (wifi, bluetooth, etc)
 - rofi-waybar
-- spotify-player (es un spotify-tui)
 - hyprshot
 - hypridle
 - hyprlock
 - hyprsunset
+- Thunar
+- gvfs
 
 
 #### programas a instalar ####
