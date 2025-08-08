@@ -282,13 +282,15 @@
     "custom/power": {
 	"format" : "⏻",
 	"tooltip": true,
-	"menu": "on-click",
-	"menu-file": "/etc/xdg/waybar/power_menu.xml", // Menu file in resources folder
-	"menu-actions": {
-	    "shutdown": "poweroff", //original era shutdown
-	    "reboot": "reboot",
-	    "suspend": "systemctl suspend",
-	    "hibernate": "systemctl hibernate"
-	}
+	"tooltip-format": "Bloquear Sesion",
+	"on-click": "hyprlock"
+	//"menu": "on-click",
+	//"menu-file": "/etc/xdg/waybar/power_menu.xml",
+	//"menu-actions": {
+	//    "shutdown": "poweroff",
+	//    "reboot": "reboot",
+	//    "suspend": "systemctl suspend",
+	//    "hibernate": "systemctl hibernate"
+	//}
     }
 }

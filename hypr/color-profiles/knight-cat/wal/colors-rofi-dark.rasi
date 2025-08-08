@@ -29,8 +29,9 @@
 
 #window {
     background-color: @background;
-    border: 0;
+    border: 2px;
     padding: 2.5ch;
+    border-color: @foreground;
 }
 
 #mainbox {
@@ -50,6 +51,9 @@
 
 #inputbar {
     children:   [ prompt,textbox-prompt-colon,entry,case-indicator ];
+    border: 2px;
+    border-color: @foreground;
+    border-radius: 12px;
 }
 
 #textbox-prompt-colon {

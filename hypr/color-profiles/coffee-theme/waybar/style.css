@@ -55,6 +55,12 @@ button:hover {
     color: white;
 }
 
+#workspaces button.active {
+    padding: 0 5px;
+    background-color: @color5;
+    color: white;
+}
+
 #workspaces button:hover {
     background: rgba(0, 0, 0, 0.2);
 }

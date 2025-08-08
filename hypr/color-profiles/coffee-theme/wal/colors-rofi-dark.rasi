@@ -1,9 +1,9 @@
 * {
-    active-background: #A36634;
+    active-background: #956E52;
     active-foreground: @foreground;
     normal-background: @background;
     normal-foreground: @foreground;
-    urgent-background: #A45028;
+    urgent-background: #965C3D;
     urgent-foreground: @foreground;
 
     alternate-active-background: @background;
@@ -13,24 +13,25 @@
     alternate-urgent-background: @background;
     alternate-urgent-foreground: @foreground;
 
-    selected-active-background: #A45028;
+    selected-active-background: #965C3D;
     selected-active-foreground: @foreground;
-    selected-normal-background: #A36634;
+    selected-normal-background: #956E52;
     selected-normal-foreground: @foreground;
-    selected-urgent-background: #A16D47;
+    selected-urgent-background: #7F807B;
     selected-urgent-foreground: @foreground;
 
     background-color: @background;
-    background: #1b130d;
-    foreground: #f1e3ab;
+    background: #7F807B;
+    foreground: #e3cfbd;
     border-color: @background;
     spacing: 2;
 }
 
 #window {
     background-color: @background;
-    border: 0;
+    border: 2px;
     padding: 2.5ch;
+    border-color: @foreground;
 }
 
 #mainbox {
@@ -50,6 +51,9 @@
 
 #inputbar {
     children:   [ prompt,textbox-prompt-colon,entry,case-indicator ];
+    border: 2px;
+    border-color: @foreground;
+    border-radius: 12px;
 }
 
 #textbox-prompt-colon {
