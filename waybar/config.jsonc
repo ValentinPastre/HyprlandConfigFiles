@@ -105,16 +105,19 @@
 	"sort-by-number": true
     },
     "hyprland/window": {
-	"format": "{class}",
+	"format": "{class} {title}",
+	//"icon": true,
 	"rewrite": {
-	    "firefox": " ",
-            "code": " ",
-            "kitty": " ",
-            "org.kde.dolphin": " ",
-            "discord": " ",
-            "spotify": " ",
-	    "Slack": " ",
-	    "Godot": " "
+	    "^(firefox).*$": "<span size='125%'> </span>",
+            "^(code).*$": "<span size='130%'> </span>",
+            "^(kitty). *nvim.*$": "<span size='130%'> </span>",
+	    "^(kitty). *vim.*$": "<span size='130%'> </span>",
+	    "^(kitty).*$": "<span size='105%'> </span>",
+            "^(org.kde.dolphin).*$": " ",
+            "^(discord).*$": "<span size='115%'> </span>",
+            "^(spotify).*$": "<span size='125%'> </span>",
+	    "^(Slack).*$": "<span size='130%'> </span>",
+	    "^(Godot).*$": "<span size='130%'> </span>"
 	}
     },
     "keyboard-state": {
