@@ -31,7 +31,9 @@ Si se quiere crear un perfil nuevo se debe usar pywal en la imagen y luego copia
 - hypridle
 - hyprlock
 - hyprsunset
-- Thunar
+- thunar
+- thunar-archive-plugin
+- thunar-volman
 - gvfs
 
 
