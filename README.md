@@ -26,7 +26,7 @@ Si se quiere crear un perfil nuevo se debe usar pywal en la imagen y luego copia
 - tlp-rdw               //usar tlp-stat -s y tlp-stat -r para ver
                         //el modo que actualmente se usa y los
                         //chipsets activos (wifi, bluetooth, etc)
-- rofi-waybar
+- rofi
 - hyprshot
 - hypridle
 - hyprlock
@@ -34,6 +34,14 @@ Si se quiere crear un perfil nuevo se debe usar pywal en la imagen y luego copia
 - qt6ct
 - qt5ct
 - breezex-cursor-theme
+- brightnessctl
+- pulseaudio
+- pulseaudio-alsa
+- pipewire-alsa
+- thunar
+- thunar-volman
+- thunar-archive-plugin
+- gvfs
 
 
 #### programas a instalar ####
