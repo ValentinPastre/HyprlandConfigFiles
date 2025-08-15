@@ -33,7 +33,7 @@ Si se quiere crear un perfil nuevo se debe usar pywal en la imagen y luego copia
 - hyprsunset
 - qt6ct
 - qt5ct
-- 
+- breezex-cursor-theme
 
 
 #### programas a instalar ####
