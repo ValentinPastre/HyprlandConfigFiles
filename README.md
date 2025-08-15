@@ -42,6 +42,7 @@ Si se quiere crear un perfil nuevo se debe usar pywal en la imagen y luego copia
 - thunar-volman
 - thunar-archive-plugin
 - gvfs
+- gvfs-mtp
 
 
 #### programas a instalar ####
