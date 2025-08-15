@@ -4,7 +4,7 @@
 
 set -e
 
-HOME="/home/zraekl" 
+HOME="/home/valentin" 
 PERFIL=$1
 DIR="$HOME/.config/hypr/color-profiles/$PERFIL"
 
