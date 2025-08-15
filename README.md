@@ -31,6 +31,9 @@ Si se quiere crear un perfil nuevo se debe usar pywal en la imagen y luego copia
 - hypridle
 - hyprlock
 - hyprsunset
+- qt6ct
+- qt5ct
+- 
 
 
 #### programas a instalar ####
