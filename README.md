@@ -22,11 +22,14 @@ Si se quiere crear un perfil nuevo se debe usar pywal en la imagen y luego copia
 - pywal                 //wal -l
                         //falta configurar para vscode
                         //ya configurado para kitty y waybar. En kitty hay >
-- tlp
+
+- tlp                   //Hay que habilitar el servicio y enmascarar otros.
+                        //Cualquier cosa, ver la wiki.
+
 - tlp-rdw               //usar tlp-stat -s y tlp-stat -r para ver
                         //el modo que actualmente se usa y los
                         //chipsets activos (wifi, bluetooth, etc)
-- rofi
+- rofi-wayland
 - hyprshot
 - hypridle
 - hyprlock
