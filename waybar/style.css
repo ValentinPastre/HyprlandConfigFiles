@@ -46,7 +46,7 @@ button:hover {
 
 /* you can set a style on hover for any module like this */
 #pulseaudio:hover {
-    background-color: #a37800;
+    background-color: @color6;
 }
 
 #workspaces button {
@@ -152,7 +152,7 @@ button:hover {
 
 @keyframes blink {
     to {
-        background-color: #ffffff;
+        background-color: @color15;
         color: #000000;
     }
 }
