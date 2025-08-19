@@ -46,7 +46,7 @@ button:hover {
 
 /* you can set a style on hover for any module like this */
 #pulseaudio:hover {
-    background-color: #a37800;
+    background-color: @color6;
 }
 
 #workspaces button {
@@ -106,7 +106,7 @@ button:hover {
 }
 
 #custom-flecha-izq-window {
-    font-size: 20pt;
+    font-size: 17pt;
     color: @color8;
 }
 
@@ -129,7 +129,7 @@ button:hover {
 }
 
 #custom-flecha-izq-clock {
-    font-size: 20pt;
+    font-size: 17pt;
     color: @color1;
     background-color: @color10;
 }
@@ -145,14 +145,14 @@ button:hover {
 }
 
 #custom-flecha-der-battery {
-    font-size: 20pt;
+    font-size: 17pt;
     color: @color15;
     background-color: transparent;
 }
 
 @keyframes blink {
     to {
-        background-color: #ffffff;
+        background-color: @color15;
         color: #000000;
     }
 }
@@ -174,7 +174,7 @@ button:hover {
 }
 
 #custom-flecha-izq-power {
-    font-size: 20pt;
+    font-size: 17pt;
     color: @color0;
     background-color: @color1;
 }
@@ -207,7 +207,7 @@ label:focus {
 }
 
 #custom-flecha-der-cpu {
-    font-size: 20pt;
+    font-size: 17pt;
     color: @color3;
     background-color: @color8;
 }
@@ -217,7 +217,7 @@ label:focus {
 }
 
 #custom-flecha-der-memory {
-    font-size: 20pt;
+    font-size: 17pt;
     color: @color8;
     background-color: @color15;
 }
@@ -231,7 +231,7 @@ label:focus {
 }
 
 #custom-flecha-izq-backlight {
-    font-size: 20pt;
+    font-size: 17pt;
     color: @color10;
     background-color: @color6;
 }
@@ -245,7 +245,7 @@ label:focus {
 }
 
 #custom-flecha-der-network {
-    font-size: 20pt;
+    font-size: 17pt;
     color: @color5;
     background-color: @color12;
 }
@@ -255,7 +255,7 @@ label:focus {
 }
 
 #custom-flecha-der-bluetooth {
-    font-size: 20pt;
+    font-size: 17pt;
     color: @color12;
     background-color: @color3;
 }
@@ -270,7 +270,7 @@ label:focus {
 }
 
 #custom-flecha-izq-pulseaudio {
-    font-size: 20pt;
+    font-size: 17pt;
     color: @color6;
     background-color: @color8;
 }

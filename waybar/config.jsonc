@@ -107,13 +107,14 @@
     "hyprland/window": {
 	"format": "{class} {title}",
 	//"icon": true,
+	"tootltip": false,
 	"rewrite": {
 	    "^(firefox).*$": "<span size='125%'> </span>", //
             "^(code).*$": "<span size='130%'> </span>",
-            "^(kitty). *nvim.*$": "<span size='130%'> </span>",
-	    "^(kitty). *vim.*$": "<span size='130%'> </span>",
-	    "^(kitty).*$": "<span size='105%'> </span>",
-            "^(org.kde.dolphin).*$": " ",
+	    "^(kitty). *sudo nvim.*$": "<span size='130%'> </span>",
+	    "^(kitty). *sudo vim.*$": "<span size='130%'> </span>",
+            "^(kitty).*$": "<span size='115%'> </span>",
+            "^(thunar).*$": "<span size='115%'> </span>",
             "^(discord).*$": "<span size='115%'> </span>",
             "^(spotify).*$": "<span size='125%'> </span>",
 	    "^(Slack).*$": "<span size='130%'> </span>",
