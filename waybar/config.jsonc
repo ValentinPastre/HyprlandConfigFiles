@@ -113,6 +113,8 @@
             "^(code).*$": "<span size='130%'> </span>",
 	    "^(kitty). *sudo nvim.*$": "<span size='130%'> </span>",
 	    "^(kitty). *sudo vim.*$": "<span size='130%'> </span>",
+	    "^(kitty). *nvim.*$": "<span size='130%'> </span>",
+	    "^(kitty). *vim.*$": "<span size='130%'> </span>",
             "^(kitty).*$": "<span size='115%'> </span>",
             "^(thunar).*$": "<span size='115%'> </span>",
             "^(discord).*$": "<span size='115%'> </span>",
