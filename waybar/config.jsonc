@@ -107,7 +107,7 @@
     "hyprland/window": {
 	"format": "{class} {title}",
 	//"icon": true,
-	"tootltip": false,
+	"tooltip": false,
 	"rewrite": {
 	    "^(firefox).*$": "<span size='125%'> </span>", //
             "^(code).*$": "<span size='130%'> </span>",

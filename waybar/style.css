@@ -44,10 +44,7 @@ button:hover {
     background: inherit;
 }
 
-/* you can set a style on hover for any module like this */
-#pulseaudio:hover {
-    background-color: @color6;
-}
+
 
 #workspaces button {
     padding: 0 5px;
@@ -261,6 +258,10 @@ label:focus {
 }
 
 #pulseaudio {
+    background-color: @color6;
+}
+
+#pulseaudio:hover {
     background-color: @color6;
 }
 
