@@ -112,6 +112,7 @@
 	    "^(firefox).*$": "<span size='125%'> </span>", //
             "^(code).*$": "<span size='130%'> </span>",
 	    "^(kitty). *sudo nvim.*$": "<span size='130%'> </span>",
+	    "^(kitty). *snvim.*$": "<span size='130%'> </span>",
 	    "^(kitty). *sudo vim.*$": "<span size='130%'> </span>",
 	    "^(kitty). *nvim.*$": "<span size='130%'> </span>",
 	    "^(kitty). *vim.*$": "<span size='130%'> </span>",
