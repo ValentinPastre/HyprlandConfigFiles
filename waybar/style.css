@@ -3,7 +3,7 @@
 
 * {
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family: "Roboto Mono Nerd Font", "Symbols Nerd Font", Helvetica, Arial, sans-serif;
+    font-family: "Roboto Mono Nerd Font", "Symbols Nerd Font", "Font Awesome 7 Free Solid", Helvetica, Arial, sans-serif;
     font-size: 14px;
 }
 
@@ -173,7 +173,20 @@ button:hover {
 #custom-flecha-izq-power {
     font-size: 17pt;
     color: @color0;
+    background-color: @color15;
+}
+
+#custom-flecha-izq-notification {
+    font-size: 17pt;
+    color: @color15;
     background-color: @color1;
+}
+
+#custom-notification {
+    font-family: "NotoSansMono Nerd Font";
+    background-color: @color15;
+    color: gray;
+    min-width: 35px;
 }
 
 #power-profiles-daemon {

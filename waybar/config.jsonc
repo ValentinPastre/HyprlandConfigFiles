@@ -35,6 +35,8 @@
         "backlight",
 	"custom/flecha-izq-clock",
         "clock",
+	"custom/flecha-izq-notification",
+	"custom/notification",
 	"custom/flecha-izq-power",
         "custom/power"
     ],
@@ -87,6 +89,10 @@
 	"format": "",
 	"tooltip": false
     },
+    "custom/flecha-izq-notification": {
+	"format": "",
+	"tooltip": false
+    },
     "hyprland/workspaces": {
 	"format": "{icon}",
 	"on-click": "activate",
@@ -122,7 +128,8 @@
             "^(spotify).*$": "<span size='125%'> </span>",
 	    "^(Slack).*$": "<span size='130%'> </span>",
 	    "^(Godot).*$": "<span size='130%'> </span>",
-	    //"^().*.*$": "🗖 "
+	    "^(obsidian).*$": "<span size='125%'>📝</span>",
+	    //"^()*.*$": "🗖 "
 	}
     },
     "keyboard-state": {
@@ -178,7 +185,7 @@
         }
      },
     "tray": {
-        "icon-size": 21,
+        "icon-size": 17,
         "spacing": 10,
         "icons": {
            "blueman": "bluetooth",
@@ -286,6 +293,26 @@
         },
         "escape": true,
         "exec": "/etc/xdg/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
+    },
+    "custom/notification": {
+        "tooltip": false,
+        "format": "{icon}",
+        "format-icons": {
+          "notification": "",
+          "none": "",
+          "dnd-notification": "",
+          "dnd-none": "",
+          "inhibited-notification": "",
+          "inhibited-none": "",
+          "dnd-inhibited-notification": "",
+          "dnd-inhibited-none": ""
+        },
+        "return-type": "json",
+        "exec-if": "which swaync-client",
+        "exec": "swaync-client -swb",
+        "on-click": "swaync-client -t -sw",
+        "on-click-right": "swaync-client -d -sw",
+        "escape": true
     },
     "custom/power": {
 	"format" : "⏻",
