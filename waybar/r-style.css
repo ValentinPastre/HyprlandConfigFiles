@@ -134,7 +134,7 @@ tooltip {
 }
 
 #backlight {
-  padding-right: 0px;
+  padding-right: 5px;
   padding-left: 5px;
   margin-right: 0px;
 }
@@ -208,13 +208,13 @@ tooltip {
 
 #pulseaudio {
   color: #cdd6f4;
-  padding-right: 0px;
-  padding-right: 0px;
+  padding-right: 5px;
+  padding-left: 5px;
   margin-right: 0px;
   /* color: #89b4fa; */
   border-left: 0px;
   border-right: 0px;
-  min-width: 70px;
+  min-width: 50px;
 }
 
 #pulseaudio.microphone {
