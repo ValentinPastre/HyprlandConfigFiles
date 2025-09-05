@@ -25,9 +25,9 @@ tooltip {
 }
 
 #workspaces button {
-  padding: 5px;
+  padding: 3px;
   color: #313244;
-  margin-right: 5px;
+  margin-right: 0px;
 }
 
 #workspaces button.active {
@@ -50,6 +50,10 @@ tooltip {
   background: rgba(0, 0, 0, 0.2);
   color: #cdd6f4;
   border-radius: 10px;
+}
+
+#workspaces button:last-child {
+	margin-right: 9px;
 }
 
 #custom-wallpaper,

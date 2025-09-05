@@ -7,7 +7,7 @@
   "gtk-layer-shell": true,
   "height": 30,
   "modules-left": [
-    "custom/rofi",
+    "custom/lock",
     "custom/localtime",
     "clock#date",
     "hyprland/workspaces"
@@ -52,9 +52,9 @@
     "format": "{}"
   },
 
-  "custom/rofi": {
+  "custom/lock": {
     "format": "󰣇",
-    "on-click": "rofi -show drun",
+    "on-click": "hyprlock",
     "tooltip": false
   },
 
@@ -133,7 +133,6 @@
     "format-plugged": " {capacity}%",
     "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
     "tooltip": "{time}",
-    "style": "{capacity < 10 ? 'color: red;' : 'color: normal;'}"
   },
 	
   "battery#bat2": {
@@ -152,7 +151,7 @@
       "phone": "",
       "portable": "",
       "car": "",
-      "default": ["", "", ""]
+      "default": ["", "", " "]
     }
   },
 
