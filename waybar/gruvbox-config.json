@@ -1,0 +1,186 @@
+{
+  "layer": "top",
+  "position": "top",
+  "mod": "dock",
+  "exclusive": true,
+  "passthrough": false,
+  "gtk-layer-shell": true,
+  "height": 30,
+  "modules-left": [
+    "custom/lock",
+    "custom/localtime",
+    "clock#date",
+    "hyprland/workspaces"
+  ],
+  "modules-center": [],
+  "modules-right": [
+    "memory",
+    "cpu",
+    "network",
+    "bluetooth",
+    "battery",
+    "backlight",
+    "pulseaudio",
+    "pulseaudio#microphone",
+    "custom/notifications",
+  ],
+
+  "custom/notifications": {
+        "tooltip": false,
+        "format": "{icon}",
+        "format-icons": {
+          "notification": "",
+          "none": "",
+          "dnd-notification": "",
+          "dnd-none": "",
+          "inhibited-notification": "",
+          "inhibited-none": "",
+          "dnd-inhibited-notification": "",
+          "dnd-inhibited-none": ""
+        },
+        "return-type": "json",
+        "exec-if": "which swaync-client",
+        "exec": "swaync-client -swb",
+        "on-click": "swaync-client -t -sw",
+        "on-click-right": "swaync-client -d -sw",
+        "escape": true
+    },
+
+  "custom/localtime": {
+    "exec": "date +'%H:%M'",
+    "interval": 30,
+    "format": "{}"
+  },
+
+  "custom/lock": {
+    "format": "󰣇",
+    "on-click": "hyprlock",
+    "tooltip": false
+  },
+
+    "cpu": {
+    "interval": 5,
+    "format": " {usage}%",
+    "tooltip-format": "CPU Load: {load}%",
+    "max-length": 5,
+    "text-max-length": 25
+  },
+
+  "memory": {
+    "format": " {}%",
+    "interval": 5
+  },
+
+  "custom/wallpaper": {
+    "format": " ",
+    "on-click": "kitty --title wallpaper_pack_selector /home/alchemmist/scripts/select_wallpaper_pack.sh"
+  },
+
+  "hyprland/workspaces": {
+    "on-click": "activate",
+    "active-only": false,
+    "all-outputs": true,
+    "disable-scroll": true,
+    "sort-by-number": true,
+    "persistent-workspaces": {
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6",
+      "7": "7",
+      "8": "8",
+      "9": "9",
+      "10": "10"
+    }
+  },
+
+    "tray": {
+    "icon-size": 18,
+    "spacing": 10
+  },
+
+  "clock#time": {
+    "format": "{:%H:%M}",
+    "timezone": "America/Argentina/Cordoba",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+  },
+
+  "clock#date": {
+    "format": "{:%d.%m.%Y}",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+  },
+
+  "backlight": {
+    "device": "intel_backlight",
+    "format": "{icon} {percent}%",
+    "format-icons": ["󰃞", "󰃟", "󰃠"],
+    "on-scroll-up": "brightnessctl set 1%+",
+    "on-scroll-down": "brightnessctl set 1%-",
+    "min-length": 6
+  },
+
+  "battery": {
+    "states": {
+      "good": 90,
+      "warning": 25,
+      "critical": 10
+    },
+    "format": "{icon} {capacity}%",
+    "format-full": "{icon} {capacity}%",
+    "format-charging": " {capacity}%",
+    "format-plugged": " {capacity}%",
+    "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+    "tooltip": "{time}",
+  },
+	
+  "battery#bat2": {
+    "bat": "BAT2"
+  },
+
+  "pulseaudio": {
+    "format": "{icon} {volume}%",
+    "tooltip": false,
+    "format-muted": " Muted",
+    "on-click": "pavucontrol",
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "",
+      "headset": "",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": ["", "", " "]
+    }
+  },
+
+  "pulseaudio#microphone": {
+    "format": "{format_source}",
+    "format-source": " {volume}%",
+    "format-source-muted": " Muted",
+  },
+
+  "network": {
+    // "interface": "wlp2*", // (Optional) To force the use of this interface
+    // "max-length": 350,
+    "format-wifi": "  {essid}",
+    "format-ethernet": "{ipaddr}/{cidr}",
+    "format-linked": "{ifname} (No IP)",
+    "format-disconnected": "Disconnected ⚠",
+    "tooltip-format": "{essid} {signalStrength}% - {ifname}",
+    "on-click": "kitty nmtui",
+    // "format-alt": "{ifname}:{essid} {ipaddr}/{cidr}"
+  },
+
+  "bluetooth": {
+    "format-on": " {status}",
+    "format-off": " {status}",
+    "format-disabled": " dsbld", // an empty format will hide the module
+    "format-connected": " {num_connections}",
+    "tooltip-format": "{device_alias}",
+    "tooltip-format-connected": " {device_enumerate}",
+    "tooltip-format-enumerate-connected": "{device_alias}",
+    "on-click": "~/.config/waybar/toggle-bluetooth.sh",
+  }
+}
